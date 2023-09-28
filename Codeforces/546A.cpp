@@ -18,7 +18,7 @@ int main()
 		var1 += k * i;
 		i++;
 	}
-	cout << var1 << endl;
+
 	if ((var1 - n) > 0)cout << var1 - n << endl;
 	else cout << 0 << endl;
 
