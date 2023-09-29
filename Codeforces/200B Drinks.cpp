@@ -10,8 +10,21 @@ int main()
 	freopen("output.txt", "w", stdout);
 #endif
 
-	long long int n;
+	int n;
 	cin >> n;
-	if (n % 2 == 0)cout << n / 2 << endl;
-	else cout << -(n + 1) / 2 << endl;	return 0;
+	double arr[n], sum = 0;
+
+	for (int i = 0; i < n; i++)
+	{
+		cin >> arr[i];
+		sum += arr[i];
+
+	}
+	cout << setprecision(10) << sum / n << endl;
+
+
+	return 0;
+
+
+
 }
