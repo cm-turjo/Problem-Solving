@@ -1,2 +1,2 @@
-1010100
-0100101
+48
+thereisasyetinsufficientdataforameaningfulanswer
