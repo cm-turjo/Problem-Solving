@@ -13,3 +13,26 @@ int main()
 	freopen("output.txt", "w", stdout);
 #endif
 	optimize();
+	string s1;
+	cin >> s1;
+	int flag = 0;
+	for (int i = 0; i < s1.size(); i++)
+	{
+		if (s1[i] == 'W' && s1[i + 1] == 'U' && s1[i + 2] == 'B')
+		{
+			flag++;
+			if (flag == 1)
+			{
+				cout << " ";
+
+			}
+			i = i + 2;
+		}
+		else
+		{
+			cout << s1[i];
+			flag = 0;
+		}
+	}
+	return 0;
+}
